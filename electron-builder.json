@@ -1,0 +1,18 @@
+{
+  "appId": "com.daliklick.app",
+  "productName": "Dalli-Klick",
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist/**/*",
+    "dist-electron/**/*"
+  ],
+  "mac": {
+    "target": ["dmg"],
+    "category": "public.app-category.games"
+  },
+  "win": {
+    "target": ["nsis", "portable"]
+  }
+}
